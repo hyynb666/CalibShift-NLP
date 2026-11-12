@@ -1,0 +1,23 @@
+{
+  "phase1_used_final_tests": true,
+  "excluded_previously_evaluated_rows": {
+    "id_test": 350,
+    "test": 350,
+    "val": 0
+  },
+  "evaluation_seed": 1122026,
+  "official_reviewer_intersections": {
+    "train:val": 0,
+    "id_val:train": 626,
+    "id_val:val": 0,
+    "id_val:test": 0,
+    "test:train": 0,
+    "test:val": 0,
+    "id_test:train": 626,
+    "id_test:val": 0,
+    "id_test:id_val": 0,
+    "id_test:test": 0
+  },
+  "fixed_final_test_samples_across_seeds": true,
+  "note": "ID reviewer overlap with train/calibration is intentional in official split; row indices disjoint. Fresh rows do not make the entire research process pristine confirmatory."
+}

@@ -1,0 +1,28 @@
+{
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "alpha": 0.1,
+  "bootstrap_seed": 814,
+  "bootstrap_replicates": 2000,
+  "primary_split": "val",
+  "secondary_splits": [
+    "id_test",
+    "test"
+  ],
+  "primary_probability": "temperature",
+  "models": [
+    "baseline",
+    "bert"
+  ],
+  "methods": [
+    "marginal",
+    "class_conditional"
+  ],
+  "new_sampling": false,
+  "new_training": false,
+  "small_class_rule": "augmented infinity order statistic",
+  "inference": "paired reviewer-cluster percentile; conditional on fixed models and calibrators"
+}

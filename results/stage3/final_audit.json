@@ -1,0 +1,8 @@
+{
+  "prediction_settings_checked": 72,
+  "metric_rows": 1008,
+  "all_saved_sets_and_metrics_match": true,
+  "marginal_intervals_reproduce_stage2": true,
+  "no_resampling_of_evaluation_rows": true,
+  "bootstrap_replicates": 2000
+}

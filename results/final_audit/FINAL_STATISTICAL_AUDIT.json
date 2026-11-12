@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "original_files_unchanged": 323,
+  "prediction_settings_verified": 72,
+  "bootstrap_replicates": 2000,
+  "reviewer_cluster_resampling_verified": true,
+  "finite_sample_quantiles_verified": true,
+  "label_and_reviewer_mapping_verified": true,
+  "row_overlap_within_run": false,
+  "test_rows_shared_across_seeds": true,
+  "unique_reviews_per_evaluation_split": {
+    "id_test": 3000,
+    "val": 3000,
+    "test": 3000
+  },
+  "temperature_conformal_reviewer_intersections": {
+    "42": 583,
+    "123": 587,
+    "2026": 579
+  },
+  "limitations": [
+    "Zero-event bootstrap intervals are degenerate, not population certainty.",
+    "Temperature and conformal rows are disjoint but reviewers overlap.",
+    "Evaluation intervals condition on fitted models and calibration thresholds.",
+    "Classwise exchangeability under reviewer shift is not established.",
+    "All analyses are exploratory after prior test exposure."
+  ],
+  "experiment_changes": false
+}

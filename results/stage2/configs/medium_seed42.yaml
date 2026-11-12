@@ -1,0 +1,41 @@
+seed: 42
+seeds:
+- 42
+- 123
+- 2026
+evaluation_seed: 1122026
+bootstrap_seed: 814
+bootstrap_replicates: 2000
+data_dir: data
+dataset_version: '2.1'
+download: false
+alpha: 0.1
+ece_bins: 15
+limits:
+  train: 3000
+  id_val: 4000
+  id_test: 3000
+  val: 3000
+  test: 3000
+smoke_limits:
+  train: 100
+  id_val: 100
+  id_test: 50
+  val: 50
+  test: 50
+baseline:
+  max_features: 30000
+  max_iter: 1000
+bert:
+  name: distilbert/distilbert-base-uncased
+  revision: 12040accade4e8a0f71eabdb258fecc2e7e948be
+  max_length: 128
+  batch_size: 4
+  gradient_accumulation_steps: 4
+  epochs: 2
+  learning_rate: 2.0e-05
+  gradient_checkpointing: true
+  mixed_precision: true
+prepared_data: results/stage2/prepared_seed42
+evaluation_splits:
+- val

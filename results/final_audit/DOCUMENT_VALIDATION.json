@@ -1,0 +1,11 @@
+{
+  "pdf_pages": 7,
+  "sections_complete": true,
+  "csv_backed_numeric_entries": 224,
+  "every_registered_number_verified": true,
+  "local_document_links_valid": true,
+  "original_artifacts_unchanged": 323,
+  "tests": "16 passed",
+  "no_retraining_or_new_experiments": true,
+  "original_experimental_csvs_modified": false
+}

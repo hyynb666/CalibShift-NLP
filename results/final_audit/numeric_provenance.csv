@@ -1,0 +1,225 @@
+file,filters,column,value,scale,format,displayed
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.0,100,.1f,0.0
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8981481481481483,100,.1f,89.8
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.4166666666666667,100,.1f,41.7
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.9814814814814816,100,.1f,98.1
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",improvement,0.4073333333333332,1,.3f,0.407
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",improvement,0.5594444444444445,1,.3f,0.559
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""train"", ""stars"": 1}",n,108.0,1,.0f,108
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""train"", ""stars"": 2}",n,257.0,1,.0f,257
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""train"", ""stars"": 3}",n,912.0,1,.0f,912
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""train"", ""stars"": 4}",n,2883.0,1,.0f,2883
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""train"", ""stars"": 5}",n,5840.0,1,.0f,5840
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""temperature"", ""stars"": 1}",n,20.0,1,.0f,20
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""temperature"", ""stars"": 2}",n,59.0,1,.0f,59
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""temperature"", ""stars"": 3}",n,180.0,1,.0f,180
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""temperature"", ""stars"": 4}",n,534.0,1,.0f,534
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""temperature"", ""stars"": 5}",n,1207.0,1,.0f,1207
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""conformal"", ""stars"": 1}",n,32.0,1,.0f,32
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""conformal"", ""stars"": 2}",n,64.0,1,.0f,64
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""conformal"", ""stars"": 3}",n,178.0,1,.0f,178
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""conformal"", ""stars"": 4}",n,613.0,1,.0f,613
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""conformal"", ""stars"": 5}",n,1113.0,1,.0f,1113
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""train"", ""stars"": 1}",n,107.0,1,.0f,107
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""train"", ""stars"": 2}",n,278.0,1,.0f,278
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""train"", ""stars"": 3}",n,935.0,1,.0f,935
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""train"", ""stars"": 4}",n,2978.0,1,.0f,2978
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""train"", ""stars"": 5}",n,5702.0,1,.0f,5702
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""temperature"", ""stars"": 1}",n,20.0,1,.0f,20
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""temperature"", ""stars"": 2}",n,62.0,1,.0f,62
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""temperature"", ""stars"": 3}",n,176.0,1,.0f,176
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""temperature"", ""stars"": 4}",n,545.0,1,.0f,545
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""temperature"", ""stars"": 5}",n,1197.0,1,.0f,1197
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""conformal"", ""stars"": 1}",n,24.0,1,.0f,24
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""conformal"", ""stars"": 2}",n,55.0,1,.0f,55
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""conformal"", ""stars"": 3}",n,172.0,1,.0f,172
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""conformal"", ""stars"": 4}",n,541.0,1,.0f,541
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""conformal"", ""stars"": 5}",n,1208.0,1,.0f,1208
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""train"", ""stars"": 1}",n,102.0,1,.0f,102
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""train"", ""stars"": 2}",n,282.0,1,.0f,282
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""train"", ""stars"": 3}",n,941.0,1,.0f,941
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""train"", ""stars"": 4}",n,2964.0,1,.0f,2964
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""train"", ""stars"": 5}",n,5711.0,1,.0f,5711
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""temperature"", ""stars"": 1}",n,22.0,1,.0f,22
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""temperature"", ""stars"": 2}",n,54.0,1,.0f,54
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""temperature"", ""stars"": 3}",n,165.0,1,.0f,165
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""temperature"", ""stars"": 4}",n,563.0,1,.0f,563
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""temperature"", ""stars"": 5}",n,1196.0,1,.0f,1196
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""conformal"", ""stars"": 1}",n,26.0,1,.0f,26
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""conformal"", ""stars"": 2}",n,52.0,1,.0f,52
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""conformal"", ""stars"": 3}",n,204.0,1,.0f,204
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""conformal"", ""stars"": 4}",n,539.0,1,.0f,539
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""conformal"", ""stars"": 5}",n,1179.0,1,.0f,1179
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""id_test"", ""stars"": 1}",n,26.0,1,.0f,26
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""id_test"", ""stars"": 2}",n,70.0,1,.0f,70
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""id_test"", ""stars"": 3}",n,304.0,1,.0f,304
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""id_test"", ""stars"": 4}",n,878.0,1,.0f,878
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""id_test"", ""stars"": 5}",n,1722.0,1,.0f,1722
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""val"", ""stars"": 1}",n,36.0,1,.0f,36
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""val"", ""stars"": 2}",n,93.0,1,.0f,93
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""val"", ""stars"": 3}",n,280.0,1,.0f,280
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""val"", ""stars"": 4}",n,804.0,1,.0f,804
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""val"", ""stars"": 5}",n,1787.0,1,.0f,1787
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""test"", ""stars"": 1}",n,48.0,1,.0f,48
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""test"", ""stars"": 2}",n,95.0,1,.0f,95
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""test"", ""stars"": 3}",n,301.0,1,.0f,301
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""test"", ""stars"": 4}",n,848.0,1,.0f,848
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""test"", ""stars"": 5}",n,1708.0,1,.0f,1708
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""accuracy"", ""model"": ""baseline"", ""split"": ""id_test""}",mean,0.642,1,.4f,0.6420
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""macro_f1"", ""model"": ""baseline"", ""split"": ""id_test""}",mean,0.2876056340210816,1,.4f,0.2876
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""nll"", ""model"": ""baseline"", ""split"": ""id_test""}",mean,0.8389133914683633,1,.4f,0.8389
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""ece"", ""model"": ""baseline"", ""split"": ""id_test""}",mean,0.0241882371555429,1,.4f,0.0242
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""brier"", ""model"": ""baseline"", ""split"": ""id_test""}",mean,0.4694515977867635,1,.4f,0.4695
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""accuracy"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.6284444444444445,1,.4f,0.6284
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""macro_f1"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.2811003462409784,1,.4f,0.2811
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""nll"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.8696007152560118,1,.4f,0.8696
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""ece"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.0420059646230938,1,.4f,0.0420
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""brier"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.4797377429624375,1,.4f,0.4797
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""accuracy"", ""model"": ""bert"", ""split"": ""id_test""}",mean,0.6505555555555556,1,.4f,0.6506
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""macro_f1"", ""model"": ""bert"", ""split"": ""id_test""}",mean,0.4103484905152942,1,.4f,0.4103
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""nll"", ""model"": ""bert"", ""split"": ""id_test""}",mean,0.8000629099925506,1,.4f,0.8001
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""ece"", ""model"": ""bert"", ""split"": ""id_test""}",mean,0.0269928194182661,1,.4f,0.0270
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""brier"", ""model"": ""bert"", ""split"": ""id_test""}",mean,0.4568356917843699,1,.4f,0.4568
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""accuracy"", ""model"": ""bert"", ""split"": ""test""}",mean,0.6377777777777777,1,.4f,0.6378
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""macro_f1"", ""model"": ""bert"", ""split"": ""test""}",mean,0.4016025022355192,1,.4f,0.4016
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""nll"", ""model"": ""bert"", ""split"": ""test""}",mean,0.8194716239155296,1,.4f,0.8195
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""ece"", ""model"": ""bert"", ""split"": ""test""}",mean,0.0404240746378898,1,.4f,0.0404
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""brier"", ""model"": ""bert"", ""split"": ""test""}",mean,0.4672156354666215,1,.4f,0.4672
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""macro_f1"", ""model"": ""bert"", ""split"": ""test""}",mean,0.4016025022355192,1,.4f,0.4016
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""macro_f1"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.2811003462409784,1,.4f,0.2811
+results/stage2/mean_model_difference.csv,"{""metric"": ""macro_f1"", ""split"": ""test""}",bert_minus_baseline,0.1205021559945408,1,.4f,0.1205
+results/stage2/mean_model_difference.csv,"{""metric"": ""macro_f1"", ""split"": ""test""}",lower,0.0971400193225571,1,.4f,0.0971
+results/stage2/mean_model_difference.csv,"{""metric"": ""macro_f1"", ""split"": ""test""}",upper,0.1455331970301442,1,.4f,0.1455
+results/stage2/mean_model_difference.csv,"{""metric"": ""accuracy"", ""split"": ""test""}",bert_minus_baseline,0.0093333333333333,1,.4f,0.0093
+results/stage2/mean_model_difference.csv,"{""metric"": ""accuracy"", ""split"": ""test""}",lower,-0.0019515223354282,1,.4f,-0.0020
+results/stage2/mean_model_difference.csv,"{""metric"": ""accuracy"", ""split"": ""test""}",upper,0.0223491537487882,1,.4f,0.0223
+results/stage2/majority_baseline.csv,"{""metric"": ""accuracy"", ""seed"": 42, ""split"": ""id_test""}",estimate,0.574,1,.4f,0.5740
+results/stage2/majority_baseline.csv,"{""metric"": ""accuracy"", ""seed"": 42, ""split"": ""test""}",estimate,0.5693333333333334,1,.4f,0.5693
+results/stage2/seed_summary.csv,"{""method"": ""raw"", ""metric"": ""nll"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.8692845040120832,1,.4f,0.8693
+results/stage2/seed_summary.csv,"{""method"": ""raw"", ""metric"": ""ece"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.0358966441840408,1,.4f,0.0359
+results/stage2/seed_summary.csv,"{""method"": ""raw"", ""metric"": ""brier"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.4777672647593051,1,.4f,0.4778
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""nll"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.8696007152560118,1,.4f,0.8696
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""ece"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.0420059646230938,1,.4f,0.0420
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""brier"", ""model"": ""baseline"", ""split"": ""test""}",mean,0.4797377429624375,1,.4f,0.4797
+results/stage2/seed_summary.csv,"{""method"": ""raw"", ""metric"": ""nll"", ""model"": ""bert"", ""split"": ""test""}",mean,0.8404902545979124,1,.4f,0.8405
+results/stage2/seed_summary.csv,"{""method"": ""raw"", ""metric"": ""ece"", ""model"": ""bert"", ""split"": ""test""}",mean,0.0829138937401681,1,.4f,0.0829
+results/stage2/seed_summary.csv,"{""method"": ""raw"", ""metric"": ""brier"", ""model"": ""bert"", ""split"": ""test""}",mean,0.4776481888488834,1,.4f,0.4776
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""nll"", ""model"": ""bert"", ""split"": ""test""}",mean,0.8194716239155296,1,.4f,0.8195
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""ece"", ""model"": ""bert"", ""split"": ""test""}",mean,0.0404240746378898,1,.4f,0.0404
+results/stage2/seed_summary.csv,"{""method"": ""temperature"", ""metric"": ""brier"", ""model"": ""bert"", ""split"": ""test""}",mean,0.4672156354666215,1,.4f,0.4672
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.899888888888889,1,.4f,0.8999
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,1.8806666666666667,1,.4f,1.8807
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""worst_class_coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""macro_class_coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.5211623579238858,1,.4f,0.5212
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8938888888888888,1,.4f,0.8939
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8981481481481483,1,.4f,0.8981
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,2.288,1,.4f,2.2880
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""worst_class_coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8419952210274791,1,.4f,0.8420
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""macro_class_coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8929290923730585,1,.4f,0.8929
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8995555555555556,1,.4f,0.8996
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.4166666666666667,1,.4f,0.4167
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,1.7838888888888889,1,.4f,1.7839
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""worst_class_coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.4142857142857143,1,.4f,0.4143
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""macro_class_coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.7168941221144934,1,.4f,0.7169
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8914444444444446,1,.4f,0.8914
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.9814814814814816,1,.4f,0.9815
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,2.3433333333333333,1,.4f,2.3433
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""worst_class_coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8731320116183015,1,.4f,0.8731
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""macro_class_coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.9163655522897888,1,.4f,0.9164
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8981481481481483,1,.4f,0.8981
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.8300653594771242,1,.4f,0.8301
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",upper,0.9583587398373984,1,.4f,0.9584
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.9814814814814816,1,.4f,0.9815
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.9509713144517068,1,.4f,0.9510
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",upper,1.0,1,.4f,1.0000
+results/stage3/mean_method_difference.csv,"{""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",improvement,0.8981481481481483,100,.1f,89.8
+results/stage3/mean_method_difference.csv,"{""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.8300653594771242,100,.1f,83.0
+results/stage3/mean_method_difference.csv,"{""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",upper,0.9583587398373984,100,.1f,95.8
+results/stage3/mean_method_difference.csv,"{""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",improvement,0.5648148148148148,100,.1f,56.5
+results/stage3/mean_method_difference.csv,"{""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.4583035714285714,100,.1f,45.8
+results/stage3/mean_method_difference.csv,"{""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",upper,0.674423218899963,100,.1f,67.4
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",improvement,0.4073333333333332,1,.3f,0.407
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.3731147574403384,1,.3f,0.373
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",upper,0.4404287849924201,1,.3f,0.440
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",improvement,0.5594444444444445,1,.3f,0.559
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.5329349787746022,1,.3f,0.533
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",upper,0.5867644890145277,1,.3f,0.587
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""id_test""}",estimate,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""id_test""}",estimate,0.8846153846153847,1,.4f,0.8846
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""id_test""}",estimate,1.918,1,.4f,1.9180
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""id_test""}",estimate,2.3375555555555554,1,.4f,2.3376
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""test""}",estimate,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""test""}",estimate,0.9444444444444444,1,.4f,0.9444
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""test""}",estimate,1.906555555555556,1,.4f,1.9066
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""test""}",estimate,2.352888888888889,1,.4f,2.3529
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""id_test""}",estimate,0.4230769230769231,1,.4f,0.4231
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""id_test""}",estimate,0.935897435897436,1,.4f,0.9359
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""id_test""}",estimate,1.8094444444444449,1,.4f,1.8094
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""id_test""}",estimate,2.3832222222222224,1,.4f,2.3832
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""test""}",estimate,0.5069444444444444,1,.4f,0.5069
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""test""}",estimate,0.9930555555555556,1,.4f,0.9931
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""test""}",estimate,1.8014444444444448,1,.4f,1.8014
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""test""}",estimate,2.368,1,.4f,2.3680
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""baseline""}",difference_ood_minus_id,-0.0124444444444444,100,.2f,-1.24
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""baseline""}",lower,-0.0297961191579745,100,.2f,-2.98
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""baseline""}",upper,0.0035244258597016,100,.2f,0.35
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""bert""}",difference_ood_minus_id,-0.0084444444444444,100,.2f,-0.84
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""bert""}",lower,-0.0221789045364224,100,.2f,-2.22
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""bert""}",upper,0.0062184425523483,100,.2f,0.62
+results/stage3/sample_counts.csv,"{""seed"": 2026, ""split"": ""train"", ""stars"": 1}",n,102.0,1,.0f,102
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""train"", ""stars"": 1}",n,108.0,1,.0f,108
+results/stage3/sample_counts.csv,"{""seed"": 123, ""split"": ""conformal"", ""stars"": 1}",n,24.0,1,.0f,24
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""conformal"", ""stars"": 1}",n,32.0,1,.0f,32
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""val"", ""stars"": 1}",n,36.0,1,.0f,36
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""val"", ""stars"": 1}",reviewers,32.0,1,.0f,32
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""id_test"", ""stars"": 1}",n,26.0,1,.0f,26
+results/stage3/sample_counts.csv,"{""seed"": 42, ""split"": ""test"", ""stars"": 1}",n,48.0,1,.0f,48
+results/stage3/reviewer_support.csv,"{""seed"": 42, ""split"": ""id_test""}",reviewers,623.0,1,.0f,623
+results/stage3/reviewer_support.csv,"{""seed"": 42, ""split"": ""test""}",reviewers,1200.0,1,.0f,1200
+results/stage3/reviewer_support.csv,"{""seed"": 42, ""split"": ""test""}",median_reviews,2.0,1,.0f,2
+results/stage3/reviewer_support.csv,"{""seed"": 42, ""split"": ""test""}",fraction_under5,0.9225,100,.1f,92.2
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.899888888888889,1,.4f,0.8999
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",upper,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,1.8806666666666667,1,.4f,1.8807
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""worst_class_coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""macro_class_coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.5211623579238858,1,.4f,0.5212
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8938888888888888,1,.4f,0.8939
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8981481481481483,1,.4f,0.8981
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.8300653594771242,1,.4f,0.8301
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",upper,0.9583587398373984,1,.4f,0.9584
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,2.288,1,.4f,2.2880
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""worst_class_coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8419952210274791,1,.4f,0.8420
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""macro_class_coverage"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8929290923730585,1,.4f,0.8929
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8995555555555556,1,.4f,0.8996
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.4166666666666667,1,.4f,0.4167
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.3043371696504688,1,.4f,0.3043
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",upper,0.5299242424242424,1,.4f,0.5299
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,1.7838888888888889,1,.4f,1.7839
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""worst_class_coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.4142857142857143,1,.4f,0.4143
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""macro_class_coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.7168941221144934,1,.4f,0.7169
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8914444444444446,1,.4f,0.8914
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.9814814814814816,1,.4f,0.9815
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",lower,0.9509713144517068,1,.4f,0.9510
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",upper,1.0,1,.4f,1.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,2.3433333333333333,1,.4f,2.3433
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""worst_class_coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8731320116183015,1,.4f,0.8731
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""macro_class_coverage"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.9163655522897888,1,.4f,0.9164
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",improvement,0.4073333333333332,1,.3f,0.407
+results/stage3/mean_method_difference.csv,"{""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",improvement,0.5594444444444445,1,.3f,0.559
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""baseline""}",difference_ood_minus_id,-0.0124444444444444,100,.2f,-1.24
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""baseline""}",lower,-0.0297961191579745,100,.2f,-2.98
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""baseline""}",upper,0.0035244258597016,100,.2f,0.35
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""bert""}",difference_ood_minus_id,-0.0084444444444444,100,.2f,-0.84
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""bert""}",lower,-0.0221789045364224,100,.2f,-2.22
+results/stage2/mean_coverage_difference.csv,"{""method"": ""temperature"", ""model"": ""bert""}",upper,0.0062184425523483,100,.2f,0.62
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.0,1,.4f,0.0000
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.8981481481481483,1,.4f,0.8981
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,1.8806666666666667,1,.4f,1.8807
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""baseline"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,2.288,1,.4f,2.2880
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.4166666666666667,1,.4f,0.4167
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""class_coverage_0"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,0.9814814814814816,1,.4f,0.9815
+results/stage3/class_conditional_comparison.csv,"{""method"": ""marginal"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,1.7838888888888889,1,.4f,1.7839
+results/stage3/class_conditional_comparison.csv,"{""method"": ""class_conditional"", ""metric"": ""average_set_size"", ""model"": ""bert"", ""probability"": ""temperature"", ""split"": ""val""}",estimate,2.3433333333333333,1,.4f,2.3433

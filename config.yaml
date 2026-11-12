@@ -1,0 +1,31 @@
+seed: 42
+data_dir: data
+dataset_version: '2.1'
+download: true
+alpha: 0.1
+ece_bins: 15
+limits:
+  train: 10000
+  id_val: 4000
+  id_test: 3000
+  val: 3000
+  test: 3000
+smoke_limits:
+  train: 100
+  id_val: 100
+  id_test: 50
+  val: 50
+  test: 50
+baseline:
+  max_features: 30000
+  max_iter: 1000
+bert:
+  name: distilbert/distilbert-base-uncased
+  revision: 12040accade4e8a0f71eabdb258fecc2e7e948be
+  max_length: 128
+  batch_size: 4
+  gradient_accumulation_steps: 4
+  epochs: 2
+  learning_rate: 0.00002
+  gradient_checkpointing: true
+  mixed_precision: true
