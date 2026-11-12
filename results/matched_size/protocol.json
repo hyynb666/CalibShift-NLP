@@ -1,0 +1,28 @@
+{
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "models": [
+    "baseline",
+    "bert"
+  ],
+  "base_alpha": 0.1,
+  "probability": "saved temperature scaled",
+  "selection_split": "val",
+  "evaluation_split": "test",
+  "validation_labels_used_for_selection": false,
+  "selection": "all distinct calibration score thresholds plus infinity",
+  "objective": "absolute integer validation inclusion-count discrepancy",
+  "tie_break": "smaller inclusion count, then smaller threshold/first attainable rank",
+  "alpha": "midpoint of rank interval [1-r/(n+1), 1-(r-1)/(n+1)) intersect (0,1)",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 814,
+  "paired_reviewers": true,
+  "shared_test_rows_across_seeds": true,
+  "training": false,
+  "new_sampling": false,
+  "inference": "conditional on models, temperatures, calibration scores and validation-selected alpha",
+  "test_status": "previously examined; exploratory, not independent confirmation"
+}

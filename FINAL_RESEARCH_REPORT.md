@@ -151,6 +151,30 @@ The minority-class gain does not establish that every rating attains its target 
 
 <!-- PDF page break -->
 
+### 5.5 Matched-Size Coverage-Efficiency Analysis
+
+A fixed supplementary contrast asks whether minority gains persist at similar mean set size. For each fitted seed, class-conditional LAC stays at alpha=0.10. Marginal LAC searches all attainable calibration-score thresholds plus infinity, selecting the threshold whose OOD validation inclusion count is closest to that target. Only validation probabilities and set sizes enter selection, not validation labels or any test outcome. Ties prefer the smaller inclusion count, then the smaller threshold. A rank-interval midpoint supplies a reproducible alpha. The chosen rule is fixed before test comparison.
+
+Table 7. OOD test, three-seed means. Near size matching does not equalize nominal targets.
+
+| Model | Method | Mean size | 1-star (%) | Worst (%) | Overall (%) |
+| --- | --- | --- | --- | --- | --- |
+| LR | Class-cond. | 2.353 | 94.44 | 87.26 | 89.01 |
+| LR | Matched M | 2.339 | 0.00 | 0.00 | 95.06 |
+| DistilBERT | Class-cond. | 2.368 | 99.31 | 87.43 | 88.53 |
+| DistilBERT | Matched M | 2.364 | 70.83 | 69.04 | 96.36 |
+
+![Figure 2. Fixed OOD test class coverage at the observed budgets. Error bars are conditional reviewer-cluster intervals; classwise gains accompany losses on frequent ratings.](results/report_update/matched_classwise_coverage.png)
+
+At nearly matched size, DistilBERT one-star coverage is 99.31% versus 70.83%, and worst-class coverage is 87.43% versus 69.04%. Paired differences are 28.47 percentage points (95% CI 19.33 to 37.78) and 18.39 points (CI 11.56 to 26.49). LR also retains a large one-star contrast: 94.44 points (CI 88.89 to 98.58).
+
+This is a redistribution of coverage, not a free improvement. DistilBERT overall coverage is 88.53% versus 96.36%; class-conditional coverage is lower by 8.41 and 11.73 points on four- and five-star reviews. Its overall paired difference is -7.82 points (CI -8.83 to -6.90). It therefore does not dominate matched marginal LAC on all reliability objectives.
+
+No validation match is exact because thresholds are discrete, and test means can differ further. Matched marginal alpha differs from 0.10, so nominal targets are unequal; selection does not confer a new guarantee. Test data were previously explored and one-star test support is limited. Paired cluster intervals preserve shared comments across seeds but condition on the fitted models, calibration rules and selected alpha, omitting training, calibration-refitting and matching-selection uncertainty. The contrast is exploratory, not independent confirmation or a theorem of shifted-data validity.
+
+
+<!-- PDF page break -->
+
 ## 6. Discussion and Limitations
 
 ### 6.1 What the rare-class evidence supports
@@ -178,7 +202,7 @@ The same evaluation comments are reused across seeds, and seed variation mixes t
 
 The completed project provides a reproducible and audited comparison of established calibration and conformal methods on an official reviewer-shift task. Its empirical contribution is to show that acceptable-looking marginal coverage can conceal severe minority-rating failures, and to measure how labelwise calibration redistributes coverage at an observable prediction-set cost. DistilBERT offers better class-balanced prediction than the sparse baseline in these runs, while its accuracy advantage and an overall ID/OOD coverage decline remain uncertain under paired cluster analysis.
 
-The evidence supports an empirical minority-reliability trade-off for fixed fitted models, not a new algorithm or an OOD validity theorem. The final audit found no numerical discrepancy requiring experimental results to be changed. It verified label mapping, per-class counts, repeated evaluation rows, reviewer-cluster resampling, augmented finite-sample quantiles and row-level split separation. Existing results and model weights were retained. These boundaries are part of the contribution: the report distinguishes what the measurements show from what the design and theory can justify.
+The evidence supports an empirical minority-reliability trade-off for fixed fitted models, not a new algorithm or an OOD validity theorem. The matched-size contrast further identifies a minority/frequent-rating allocation trade-off rather than uniform performance improvement. The final audit found no numerical discrepancy requiring experimental results to be changed. It verified label mapping, per-class counts, repeated evaluation rows, reviewer-cluster resampling, augmented finite-sample quantiles and row-level split separation. Existing results and model weights were retained. These boundaries are part of the contribution: the report distinguishes what the measurements show from what the design and theory can justify.
 
 ## References
 
@@ -198,4 +222,4 @@ The evidence supports an empirical minority-reliability trade-off for fixed fitt
 
 ### Artifact and audit notes
 
-The repository README gives environment and reproduction commands. The final results summary links primary CSVs and states the inferential caveats. results/final_audit/ contains the sample-count audit, numerical provenance and final test log. The report was generated directly from saved CSV cells; probabilities and prediction sets were checked against the original artifacts. No new statistical method, training run or evaluation split was introduced during this finalization.
+The repository README gives environment and reproduction commands. The final results summary links primary CSVs and states the inferential caveats. results/final_audit/ contains the sample-count audit, numerical provenance and final test log for the original study; results/report_update/ records the supplemental report validation and 19-test check. The report was generated directly from saved CSV cells; probabilities and prediction sets were checked against the original artifacts. No new statistical method, training run or evaluation split was introduced during this finalization.

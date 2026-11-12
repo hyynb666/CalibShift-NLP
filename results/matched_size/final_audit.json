@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "matching_cases": 6,
+  "brute_force_optimality_verified": true,
+  "evaluation_settings": 36,
+  "paired_mean_intervals_verified": true,
+  "shared_test_seed_dependence_preserved": true,
+  "existing_files_preserved": 335,
+  "unchanged_commit": "08ab0028563d7771503400757b88a6c57eab16a0",
+  "original_tracked_files_unchanged": true,
+  "figures": 3,
+  "validation_targets_used_no_labels": true
+}

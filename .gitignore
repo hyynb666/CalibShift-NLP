@@ -79,3 +79,23 @@ tokens*.json
 !/results/final_audit/numeric_provenance.csv
 !/results/final_audit/tests.log
 !/results/final_audit/DOCUMENT_VALIDATION.json
+
+# Matched-size experiment and final report update
+!/results/matched_size/
+!/results/report_update/
+!/results/matched_size/matched_size_metrics.csv
+!/results/matched_size/matched_size_summary.csv
+!/results/matched_size/matching_choices.csv
+!/results/matched_size/paired_differences.csv
+!/results/matched_size/coverage_efficiency_curve.csv
+!/results/matched_size/coverage_efficiency_curve.png
+!/results/matched_size/matched_size_comparison.png
+!/results/matched_size/classwise_coverage.png
+!/results/matched_size/MATCHED_SIZE_REPORT.md
+!/results/matched_size/protocol.json
+!/results/matched_size/final_audit.json
+!/results/matched_size/tests.log
+!/results/report_update/numeric_provenance.csv
+!/results/report_update/matched_classwise_coverage.png
+!/results/report_update/tests.log
+!/results/report_update/REPORT_VALIDATION.json

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pdf_pages": 8,
+  "csv_backed_numeric_entries": 216,
+  "all_numbers_verified_in_markdown_and_pdf": true,
+  "requested_distilbert_values_verified": [
+    "99.31",
+    "70.83",
+    "87.43",
+    "69.04",
+    "88.53",
+    "96.36"
+  ],
+  "historical_experiment_and_weight_files_unchanged": 345,
+  "tests": "19 passed",
+  "public_relative_links_verified": true,
+  "pdf_author": "CalibShift-NLP project",
+  "retraining": false,
+  "new_experiments": false
+}

@@ -9,7 +9,7 @@ All results are from completed experiments. No retraining, new split or new stat
 - Reviewer-cluster resampling and finite-sample class quantiles were verified.
 - Zero-event [0,0] bootstrap intervals do not establish zero population coverage.
 - Temperature/conformal rows are distinct but share reviewers; OOD validity is not established.
-- The original 16 tests pass; existing experiment artifacts and weights are unchanged.
+- The original 16 tests and 3 matched-size tests pass; existing experiment artifacts and weights are unchanged.
 
 ## Primary OOD validation comparison
 
@@ -40,3 +40,23 @@ DistilBERT improves Macro-F1 in the paired comparison; an accuracy advantage is 
 - [Paired method changes](results/stage3/mean_method_difference.csv).
 - [Classifier metrics](results/stage2/multiseed_metrics.csv).
 - [Final audit](results/final_audit/FINAL_STATISTICAL_AUDIT.json) and [verified counts](results/final_audit/verified_sample_counts.csv).
+
+## Matched-size supplementary results
+
+
+The supplementary comparison selects marginal LAC's alpha using **validation probabilities and set sizes only**, then fixes that rule on the previously examined OOD test. Class-conditional LAC stays at alpha=0.10. The discrete threshold search gives near, not exact, size matching.
+
+| Model | Method | Mean set size | One-star coverage | Worst-class coverage | Overall coverage |
+|---|---|---:|---:|---:|---:|
+| LR | Class-Conditional | 2.353 | 94.44% | 87.26% | 89.01% |
+| LR | Matched Marginal | 2.339 | 0.00% | 0.00% | 95.06% |
+| DistilBERT | Class-Conditional | 2.368 | 99.31% | 87.43% | 88.53% |
+| DistilBERT | Matched Marginal | 2.364 | 70.83% | 69.04% | 96.36% |
+
+For DistilBERT, the paired one-star difference is **+28.47 percentage points** (conditional 95% reviewer-cluster CI [19.33, 37.78]); the worst-class difference is +18.39 points [11.56, 26.49].
+
+This is an improvement in **coverage allocation across ratings**, not a cost-free gain in every metric: DistilBERT overall coverage is 88.53% versus 96.36%, while four- and five-star coverage fall by 8.41 and 11.73 points. The two methods have different alpha/nominal targets; there is no new OOD coverage guarantee. Rare-class support is limited, test use is exploratory, and intervals omit full training, calibration-refitting and validation-selection uncertainty. Shared comments are not treated as independent datasets across seeds.
+
+![Matched-size classwise coverage and conditional intervals](results/report_update/matched_classwise_coverage.png)
+
+[Supplementary report](results/matched_size/MATCHED_SIZE_REPORT.md) · [Per-seed metrics](results/matched_size/matched_size_metrics.csv) · [Paired intervals](results/matched_size/paired_differences.csv) · [Selected alpha and size gaps](results/matched_size/matching_choices.csv)
